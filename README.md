@@ -166,9 +166,5 @@ janex_pt = JanexPT(intents_file_path)
 input_string = "How can I reset my password?"
 intent = janex_pt.pattern_compare(input_string)
 print(intent)
-
-response = "Sample response"
-new_response = janex_pt.generate_response_with_synonyms(response, strength=2)
-print(new_response)
 ```
 
