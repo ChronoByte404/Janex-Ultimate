@@ -106,3 +106,69 @@ intent = classifier.classify(input_string)
 print(intent)  # Output: {'tag': 'password_reset', 'patterns': ['How can I reset my password?'], 'responses': ['You can reset your password by...']}
 ```
 
+<h3> Janex PyTorch </h3>
+
+The Janex PyTorch library provides tools for intent classification and response generation using PyTorch.
+
+```
+from JanexUltimate.janexpytorch import *
+```
+
+<h4> Initializing JanexPT </h4>
+
+To initialize the JanexPT class, provide the file path to the intents JSON file.
+
+```python
+janex_pt = JanexPT(intents_file_path)
+```
+
+<h4> Setting device </h4>
+
+You can set the device for PyTorch operations (e.g., "cpu" or "cuda") using the set_device method.
+
+```python
+janex_pt.set_device("cpu")
+```
+
+<h4> Comparing Patterns </h4>
+
+To compare patterns and classify intents, use the pattern_compare method.
+
+```python
+intent = janex_pt.pattern_compare(input_string)
+print(intent)
+```
+
+<h4> Modifying data path </h4>
+
+```python
+janex_pt.modify_data_path(new_path)
+```
+
+<h4> Training program </h4>
+
+The library includes a training program that can be executed to train the model. Simply call the trainpt method.
+
+```python
+janex_pt.trainpt()
+```
+
+<h4> Example </h4>
+
+Here's an example of how to use the Janex PyTorch library:
+
+```python
+from Janex_PyTorch import JanexPT
+
+intents_file_path = "intents.json"
+janex_pt = JanexPT(intents_file_path)
+
+input_string = "How can I reset my password?"
+intent = janex_pt.pattern_compare(input_string)
+print(intent)
+
+response = "Sample response"
+new_response = janex_pt.generate_response_with_synonyms(response, strength=2)
+print(new_response)
+```
+
