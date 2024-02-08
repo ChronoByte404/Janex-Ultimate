@@ -1,0 +1,13 @@
+README.md
+setup.py
+JanexUltimate/__init__.py
+JanexUltimate/janexnlg.py
+JanexUltimate/janexpython.py
+JanexUltimate/janexpytorch.py
+JanexUltimate/janexspacy.py
+JanexUltimate/main.py
+janexultimate.egg-info/PKG-INFO
+janexultimate.egg-info/SOURCES.txt
+janexultimate.egg-info/dependency_links.txt
+janexultimate.egg-info/requires.txt
+janexultimate.egg-info/top_level.txt

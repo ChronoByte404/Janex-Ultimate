@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: janexultimate
+Version: 0.1.1
+Home-page: https://github.com/ChronoByte404/Janex-Ultimate
+Download-URL: https://github.com/ChronoByte404/Janex-Ultimate
+Author: ChronoByte404
+Author-email: cipher58public@gmail.com
+License: Lily 3.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: CipherProgram
+Requires-Dist: torch
+Requires-Dist: nltk
