@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="JanexUltimate",
-    version="0.1.3",
+    version="0.1.4",
     author="ChronoByte404",
     author_email="cipher58public@gmail.com",
     description="A description of your package",
