@@ -158,7 +158,7 @@ janex_pt.trainpt()
 Here's an example of how to use the Janex PyTorch library:
 
 ```python
-from Janex_PyTorch import JanexPT
+from JanexUltimate import *
 
 intents_file_path = "intents.json"
 janex_pt = JanexPT(intents_file_path)
